@@ -2,8 +2,9 @@
 
 ## Instructions
 
-Create an input text in which as the user types in, launch a search against
-Github users and return a result list.
+Set a search input text where users can type in and get results straight away with auto suggestions (without ENTER keypress or button required to get results), even though we could also have a submit button to help users.
+
+Resultats are Github users formatted as a result list. Up to you to define which date to qualify users it's relevant to display here.
 
 ### The subject
 
@@ -11,7 +12,7 @@ Github users and return a result list.
 2. Try to not add any dependency library on a freshly created
    [create react app](https://github.com/facebook/create-react-app).
 3. Don't forget to check against modern ways to make HTTP requests on frontend side.
-4. Bonus: manage edge cases (no results, github api rate limit)
+4. Bonus: manage edge cases (no results, github api rate limit, user filling text quickly with back and forth)
 
 ### Guidelines
 
